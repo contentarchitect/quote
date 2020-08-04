@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table block for ContentArchitect</title>
+	<link rel="stylesheet" href="https://unpkg.com/@contentarchitect/editor/dist/ContentArchitect.css">
+	<link rel="stylesheet" href="../src/theme.extract.css">
+	<style>
+		body {
+			max-width: 800px;
+			margin: auto;
+			padding: 3em;
+		}
+	</style>
+</head>
+<body>
+
+	<content-architect>
+		<div data-block="Quote">
+			<blockquote>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dicta? Modi impedit perspiciatis facere fugiat quisquam dignissimos blanditiis alias, molestiae dolorem ratione facilis, unde hic consectetur maiores vitae natus sunt?</p>
+				<cite>Anonymous</cite>
+			</blockquote>
+		</div>
+	</content-architect>
+
+	<script src="https://unpkg.com/vue@2"></script>
+	<script src="https://unpkg.com/@contentarchitect/editor"></script>
+	<script src="quote.js"></script>
+	<script>
+		ContentArchitect.Blocks.register(Quote)
+	</script>
+</body>
+</html>
