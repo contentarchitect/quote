@@ -1,0 +1,35 @@
+blockquote {
+	position: relative;
+}
+
+blockquote cite {
+	display: flex;
+	justify-content: flex-end;
+}
+
+blockquote cite::before {
+	content: '\2014';
+	padding-right: .25em;
+}
+
+blockquote::before, blockquote::after {
+	position: absolute;
+	font-size: 4em;
+	color: #ddd;
+	font-family: inherit;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+blockquote::before {
+	line-height: 1em;
+	content: '\201C';
+	left: -36px;
+	top: -4px;
+}
+
+blockquote::after {
+	line-height: 1px;
+	content: '\201D';
+	right: -32px;
+	bottom: 20px;
+}

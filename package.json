@@ -1,0 +1,28 @@
+{
+  "name": "@contentarchitect/quote",
+  "version": "0.0.0",
+  "description": "Blockquote block for ContentArchitect editor",
+  "main": "dist/quote.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentarchitect/quote.git"
+  },
+  "keywords": [
+    "blockquote",
+    "quote",
+    "cite"
+  ],
+  "author": "Cihad Paksoy <cihadp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contentarchitect/quote/issues"
+  },
+  "homepage": "https://github.com/contentarchitect/quote#readme",
+  "devDependencies": {
+    "rollup-plugin-vue": "^5",
+    "rollup-plugin-vue-inline-svg": "^1.1.1"
+  }
+}
