@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "Blockquote block for ContentArchitect editor",
   "main": "dist/quote.js",
+  "jsdelivr": "dist/quote.min.js",
+  "browser": "dist/quote.min.js",
   "scripts": {
     "build": "rollup -c"
   },

@@ -24,7 +24,9 @@ export default {
 				'@contentarchitect/editor': 'ContentArchitect'
 			},
 			plugins: [
-				terser()
+				terser({
+					keep_classnames: true
+				})
 			]
 		}
 	],
