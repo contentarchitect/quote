@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/quote",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Blockquote block for ContentArchitect editor",
   "main": "dist/quote.js",
   "scripts": {
